@@ -5,24 +5,28 @@ import { NavLink } from "react-router-dom";
 function webIntro() {
   return (
     <div className={styles.webIntroContainer}>
-      <h2>Glad to have you hear!</h2>
+      <h2>Glad to have you here!</h2>
       <p>
-        In my first month of learning to program with HTML, CSS, and JavaScript,
-        I've embarked on an exhilarating journey into the world of web
-        development. Starting with the essential building blocks of HTML, I've
-        gained a solid grasp of structuring web content and incorporating key
-        elements like headings, paragraphs, images, and links. CSS has empowered
-        me to bring my creations to life, enabling precise control over layout,
-        styling, and aesthetics. By diving into Flexbox and animations, I've
-        discovered how to craft visually engaging and dynamic designs. As I
-        venture into the realm of JavaScript, I'm excited to unlock
-        interactivity and functionality, taking my skills to the next level.
-        This first month has ignited a passion for creating immersive web
-        experiences, and I'm eager to see where this journey takes me next.
+        Hey there! I'm Ben, a 24-year-old career changer who has hung up his
+        corporate shoes in search of a new challenge. After five years in sales,
+        it was time to shake things up. Taking some time to work as a gardener
+        and recalibrating my goals, I was persuaded by a close friend to dip my
+        toes into the world of software development, which captivated my
+        interest. So here I am, enthusiastic and eager to continue growing as a
+        Full Stack Web Developer.<br /><br /> Starting in February 2024, I have undertaken a
+        three-month internship at Datacom, Auckland, alongside several other
+        candidates from Mission Ready as part of my Certificate in Applied
+        Technology Product Solutions. My team has been tasked with developing an
+        enterprise web application which we hope to release for production in
+        April 2024.<br /><br /> This website is a showcase of my work, and I hope you
+        enjoy exploring it as much as I have enjoyed creating it. If you have any
+        questions or would like to get in touch, please feel free to contact me
+        via the contact form or through my social media links. I look forward to
+        hearing from you!
       </p>
-        <NavLink to="/exploremywork " className={styles.exploreMyWorkLink}>
-            Projects
-        </NavLink>
+      <NavLink to="/exploremywork " className={styles.exploreMyWorkLink}>
+        Projects
+      </NavLink>
     </div>
   );
 }
