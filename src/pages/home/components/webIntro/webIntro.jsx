@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function webIntro() {
   return (
     <div className={styles.webIntroContainer}>
-      <h2>Glad to have you here!</h2>
+      <h2>Welcome!</h2>
       <p>
         Hey there! I'm Ben, a 24-year-old career changer who has hung up his
         corporate shoes in search of a new challenge. After five years in sales,

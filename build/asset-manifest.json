@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b7c922d.css",
-    "main.js": "/static/js/main.b41e69db.js",
-    "static/js/592.74932e6f.chunk.js": "/static/js/592.74932e6f.chunk.js",
-    "static/media/myWorkBackgroundImage.jpg": "/static/media/myWorkBackgroundImage.01d766f57848a3d74904.jpg",
-    "static/media/homePageBackgroundImage.jpg": "/static/media/homePageBackgroundImage.0553396dca17928b9fab.jpg",
-    "index.html": "/index.html",
-    "main.6b7c922d.css.map": "/static/css/main.6b7c922d.css.map",
-    "main.b41e69db.js.map": "/static/js/main.b41e69db.js.map",
-    "592.74932e6f.chunk.js.map": "/static/js/592.74932e6f.chunk.js.map"
+    "main.css": "/ben-walker/static/css/main.daf88b78.css",
+    "main.js": "/ben-walker/static/js/main.f5f9ce2c.js",
+    "static/js/592.74932e6f.chunk.js": "/ben-walker/static/js/592.74932e6f.chunk.js",
+    "static/media/myWorkBackgroundImage.jpg": "/ben-walker/static/media/myWorkBackgroundImage.01d766f57848a3d74904.jpg",
+    "static/media/homePageBackgroundImage.jpg": "/ben-walker/static/media/homePageBackgroundImage.0553396dca17928b9fab.jpg",
+    "index.html": "/ben-walker/index.html",
+    "main.daf88b78.css.map": "/ben-walker/static/css/main.daf88b78.css.map",
+    "main.f5f9ce2c.js.map": "/ben-walker/static/js/main.f5f9ce2c.js.map",
+    "592.74932e6f.chunk.js.map": "/ben-walker/static/js/592.74932e6f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b7c922d.css",
-    "static/js/main.b41e69db.js"
+    "static/css/main.daf88b78.css",
+    "static/js/main.f5f9ce2c.js"
   ]
 }

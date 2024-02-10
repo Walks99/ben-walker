@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./MyWork.module.scss";
 import WebTitle from "./components/webTitle/WebTitle";
+import Projects from "./components/projects/Projects";
 
 function MyWork() {
   return (
@@ -8,6 +9,7 @@ function MyWork() {
       <div className={styles.contentContainer}>
 
         <WebTitle />
+        <Projects />
 
       </div>
     </div>

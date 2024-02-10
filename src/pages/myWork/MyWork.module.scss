@@ -5,7 +5,7 @@
 }
 
 .myWorkContainer {
-  background-image: url(../../assets/background-images/myWorkBackgroundImage.jpg);
+  background-image: url(../../../public/myWorkBackgroundImage.jpg);
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -16,7 +16,5 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
   }
 }
