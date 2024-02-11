@@ -3,7 +3,7 @@ import styles from "./Projects.module.scss";
 
 function Projects() {
   return (
-    <div className={styles.topics_container}>
+    <div className={styles.projects_container}>
       <div className={`${styles.projectElement} ${styles.projectOne}`}>
         <h2>NZ Metro Property Management</h2>
         <img src={process.env.PUBLIC_URL + '/NZmetroPropertyLogo.png'} alt="NZ metro property mangement" />
@@ -21,7 +21,9 @@ function Projects() {
         <img src={process.env.PUBLIC_URL + '/DatacomLogo.png'} alt="NZ metro property mangement" />
         <p>Comming soon...</p>
       </div>
+
     </div>
+    
   );
 }
 
