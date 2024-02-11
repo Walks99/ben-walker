@@ -10,7 +10,7 @@
   padding: 25px;
   box-shadow: -5px 5px 4px rgb(253, 94, 83);
   h2 {
-    font-family: Aoboshi One;
+    font-family: 'Aoboshi One', serif;
     font-style: italic;
     color: #dc143c;
     /* margin-top: 10px; */
@@ -31,12 +31,13 @@
   }
   a {
     align-self: flex-end;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-style: italic;
+    // font-weight: bold;
     text-decoration: underline;
     text-underline-offset: 6px;
     color: #4b0082;
-    text-shadow: 1px 1px 1px rgb(231, 76, 60);
+    text-shadow: 2px 2px 1px rgb(231, 76, 60);
     font-family: "Roboto Mono", monospace;
     transition: transform 0.3s ease, text-shadow 0.3s ease;
     
@@ -46,7 +47,7 @@
       }
 
       &:active {
-        text-shadow: 2px 2px 1px rgb(255, 105, 180);
+        text-shadow: 2px 2px 2px rgb(255, 105, 180);
         transition: text-shadow 0s;
       }
   }

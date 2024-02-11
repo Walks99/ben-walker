@@ -30,5 +30,9 @@
     &:hover {
       text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7);
     }
+    &:active {
+      text-shadow: 2px 2px 1px rgb(255, 105, 180);
+      transition: text-shadow 0s;
+    }
   }
 }

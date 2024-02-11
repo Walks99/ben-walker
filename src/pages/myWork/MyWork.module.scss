@@ -4,18 +4,25 @@
   box-sizing: border-box;
 }
 
+@keyframes backgroundFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+
 .myWorkContainer {
   background-image: url(../../../public/myWorkBackgroundImage.jpg);
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-attachment: fixed;
+  animation: backgroundFadeIn 2s;
   .contentContainer {
     position: absolute;
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    // justify-content: space-around;
   }
 }

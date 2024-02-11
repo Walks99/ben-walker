@@ -9,9 +9,9 @@ function MyWork() {
     <div className={styles.myWorkContainer}>
       <div className={styles.contentContainer}>
 
-        <WebTitle />
-        <Projects />
-        <NavBar />
+        <WebTitle className={styles.webTitle}/>
+        <Projects className={styles.projects}/>
+        <NavBar className={styles.navBar}/>
 
       </div>
     </div>

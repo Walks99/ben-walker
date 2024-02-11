@@ -25,7 +25,7 @@ function webIntro() {
         hearing from you!
       </p>
       <NavLink to="/exploremywork " className={styles.exploreMyWorkLink}>
-        Projects
+        Explore
       </NavLink>
     </div>
   );
