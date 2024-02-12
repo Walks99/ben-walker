@@ -26,7 +26,14 @@ function NavBar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            View my Github
+            Github
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ben-walker-8945662a3/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
           </a>
           <a
             href="https://drive.google.com/file/d/1GAIsHn5gaO9r6rEr3eNQqdTh4RIkMbL2/view?usp=sharing"
@@ -37,9 +44,9 @@ function NavBar() {
             Download my CV
           </a>
 
-          <NavLink to="/contactme">
+          {/* <NavLink to="/contact">
             <span>Contact</span>
-          </NavLink>
+          </NavLink> */}
           <NavLink to="/">
             <span>Home</span>
           </NavLink>

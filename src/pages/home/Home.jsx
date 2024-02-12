@@ -7,8 +7,10 @@ function Home() {
   return (
     <div className={styles.homePageContainer}>
       <div className={styles.contentsContainer}>
-        <WebTitle />
-        <WebIntro />
+        <div className={styles.webTitleWebIntroWrapper}>
+          <WebTitle />
+          <WebIntro />
+        </div>
       </div>
     </div>
   );
