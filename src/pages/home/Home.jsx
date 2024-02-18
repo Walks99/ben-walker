@@ -30,7 +30,6 @@ function Home() {
     await window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -40,7 +39,9 @@ function Home() {
 
   return (
     <div className={styles.homePageContainer}>
-      <NavBar />
+      <div className={styles.navBarForDesktopView}>
+        <NavBar />
+      </div>
       <div className={styles.contentsContainer}>
         <div className={styles.webTitleAndIntroContainer}>
           <WebTitle />
@@ -69,6 +70,9 @@ function Home() {
         <div ref={myWorkRef}>
           <MyWork />
         </div>
+      </div>
+      <div className={styles.navBarForMobileView}>
+        <NavBar />
       </div>
     </div>
   );

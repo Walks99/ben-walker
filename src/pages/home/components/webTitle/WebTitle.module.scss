@@ -11,6 +11,9 @@
   height: auto;
   margin: 4% 0 0 0;
   h1 {
+    @media (max-width: 500px) {
+      font-size: 4rem;
+    }
     font-style: italic;
     color: rgb(0, 0, 0, 0.7);
     text-shadow: 3px 3px 2px rgba(128, 128, 128, 0.5);
@@ -19,11 +22,14 @@
     font-weight: bolder;
   }
   p {
+    @media (max-width: 500px) {
+      font-size: 1.2rem;
+    }
     margin: 0;
-     /* Safari-specific */
-  color: rgba(0, 0, 0, 0.1);
-  /* Chrome-specific */
-  -webkit-text-fill-color: rgba(0, 0, 0, 0.7);
+    /* Safari-specific */
+    color: rgba(0, 0, 0, 0.1);
+    /* Chrome-specific */
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.7);
     font-size: 1.8rem;
     // font-family: "Exo 2";
     // font-family: "Orbitron";
