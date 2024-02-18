@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 import styles from "./NavBar.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBurger, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 
 function NavBar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -17,8 +17,7 @@ function NavBar() {
         <>
           <FontAwesomeIcon
             icon={faCircleXmark}
-            color="rgba(255, 165, 0, 0.8)"
-            style={{ fontSize: "4rem", marginRight: "20px" }}
+            className={styles.closeIcon}
             onClick={toggleDropdown}
           />
           <a
@@ -43,22 +42,16 @@ function NavBar() {
           >
             Download my CV
           </a>
-
-          {/* <NavLink to="/contact">
-            <span>Contact</span>
-          </NavLink> */}
-          <NavLink to="/">
-            <span>Home</span>
-          </NavLink>
         </>
       ) : (
         <FontAwesomeIcon
           icon={faBurger}
-          color="rgba(255, 165, 0, 0.8)"
-          style={{ fontSize: "4rem", marginRight: "20px" }}
+          color="black"
+          className={styles.burgerIcon}
           onClick={toggleDropdown}
         />
       )}
+        
     </div>
   );
 }

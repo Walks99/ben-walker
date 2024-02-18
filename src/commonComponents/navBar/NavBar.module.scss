@@ -5,7 +5,28 @@
   position: fixed;
   bottom: 2rem;
   left: 2rem;
-
+  .burgerIcon {
+    font-size: 4rem;
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out, color 0.3s ease;
+    transform: scale(1);
+    &:hover {
+      transform: scale(1.1);
+      color: #ffdb58;
+      transition: transform 0.3s ease-in-out, color 0.3s ease;
+    }
+  }
+  .closeIcon {
+    font-size: 4rem;
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out, color 0.3s ease;
+    transform: scale(1);
+    &:hover {
+      transform: scale(1.1);
+      color: #ffdb58;
+      transition: transform 0.3s ease-in-out, color 0.3s ease;
+    }
+  }
   a {
     font-weight: bold;
     margin-right: 40px;
