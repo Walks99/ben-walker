@@ -16,6 +16,7 @@
       rgba(255, 255, 255, 1)
     ),
     url("../../../public/blackAndWhitePhotoOfMe.jpeg");
+    
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -77,10 +78,15 @@
 // Media Queries for screens 500px and below
 @media (max-width: 500px) {
   .homePageContainer {
+    object-fit: cover; // Scales to fill, maintaining aspect ratio
+    // object-fit: contain; // Scales to fit within, maintaining aspect ratio
     justify-content: center;
     .contentsContainer {
       width: 100%;
       .webTitleAndIntroContainer {
+        .webIntroContainer {
+          margin: 10% 0 10% 0;
+        }
             .pointingHandContainer {
               display: none;
           }
