@@ -39,19 +39,13 @@ function Home() {
 
   return (
     <div className={styles.homePageContainer}>
-      <div className={styles.navBarForDesktopView}>
-        <NavBar />
-      </div>
       <div className={styles.contentsContainer}>
         <div className={styles.webTitleAndIntroContainer}>
           <WebTitle />
           <div className={styles.webIntroContainer}>
             <WebIntro />
           </div>
-          <div
-            className={styles.pointingHandContainer}
-            // onClick={scrollToMyWork}
-          >
+          <div className={styles.pointingHandContainer}>
             {isHandClicked ? (
               <FontAwesomeIcon
                 icon={faHandPointUp}
@@ -71,9 +65,7 @@ function Home() {
           <MyWork />
         </div>
       </div>
-      <div className={styles.navBarForMobileView}>
-        <NavBar />
-      </div>
+      <NavBar />
     </div>
   );
 }
