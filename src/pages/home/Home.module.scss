@@ -81,6 +81,10 @@
     object-fit: cover; // Scales to fill, maintaining aspect ratio
     // object-fit: contain; // Scales to fit within, maintaining aspect ratio
     background-image: url('../../../public/mobileBackgroundImage.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
     justify-content: center;
     .contentsContainer {
       height: auto;
