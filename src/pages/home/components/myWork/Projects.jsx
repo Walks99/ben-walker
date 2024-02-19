@@ -10,7 +10,7 @@ function Projects() {
           src={process.env.PUBLIC_URL + "/NZmetroPropertyLogo.png"}
           alt="NZ metro property mangement"
         />
-        <p>Comming soon...</p>
+        <p>Coming soon...</p>
       </div>
 
       <div className={`${styles.projectElement} ${styles.projectTwo}`}>
@@ -19,7 +19,7 @@ function Projects() {
           src={process.env.PUBLIC_URL + "/LevelUpWorks-blue.png"}
           alt="NZ metro property mangement"
         />
-        <p>Comming soon...</p>
+        <p>Coming soon...</p>
       </div>
 
       <div className={`${styles.projectElement} ${styles.projectThree}`}>
@@ -28,7 +28,7 @@ function Projects() {
           src={process.env.PUBLIC_URL + "/DatacomLogo.png"}
           alt="NZ metro property mangement"
         />
-        <p>Comming soon...</p>
+        <p>Coming soon...</p>
       </div>
     </div>
   );

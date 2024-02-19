@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ben-walker/static/css/main.25ae1c6b.css",
+    "main.css": "/ben-walker/static/css/main.c54d1328.css",
     "main.js": "/ben-walker/static/js/main.f6c53f86.js",
     "static/js/592.74932e6f.chunk.js": "/ben-walker/static/js/592.74932e6f.chunk.js",
     "static/media/blackAndWhitePhotoOfMe.jpeg": "/ben-walker/static/media/blackAndWhitePhotoOfMe.2a6cb3734ca3aac34c8f.jpeg",
     "index.html": "/ben-walker/index.html",
-    "main.25ae1c6b.css.map": "/ben-walker/static/css/main.25ae1c6b.css.map",
+    "main.c54d1328.css.map": "/ben-walker/static/css/main.c54d1328.css.map",
     "main.f6c53f86.js.map": "/ben-walker/static/js/main.f6c53f86.js.map",
     "592.74932e6f.chunk.js.map": "/ben-walker/static/js/592.74932e6f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25ae1c6b.css",
+    "static/css/main.c54d1328.css",
     "static/js/main.f6c53f86.js"
   ]
 }

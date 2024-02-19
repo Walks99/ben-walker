@@ -20,7 +20,7 @@ function webIntro() {
         application which we hope to release for production in April 2024.
         <br />
         <br /> This website is still under construction, but is soon to be a
-        showcase of my work, which i'm very excited to share with you shortly.
+        showcase of my work, which I'm very excited to share with you shortly.
         If you have any questions or would like to get in touch, please feel
         free to contact me. You'll find my contact info and upcoming projects
         below. See you soon!
