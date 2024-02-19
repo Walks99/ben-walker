@@ -1,7 +1,6 @@
 .webIntroContainer {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: auto;
   margin-left: 50px;
   margin-right: 50px;
@@ -20,6 +19,8 @@
 // Media Queries for screens 500px and below
 @media (max-width: 500px) {
   .webIntroContainer {
+    height: auto;
+    width: 100%;
     margin: 10% 0 10% 0;
   }
 }

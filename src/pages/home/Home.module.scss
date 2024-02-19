@@ -80,11 +80,17 @@
   .homePageContainer {
     object-fit: cover; // Scales to fill, maintaining aspect ratio
     // object-fit: contain; // Scales to fit within, maintaining aspect ratio
+    background-image: url('../../../public/mobileBackgroundImage.jpg');
     justify-content: center;
     .contentsContainer {
+      height: auto;
       width: 100%;
       .webTitleAndIntroContainer {
+        height: auto;
+        width: 100%;
         .webIntroContainer {
+          height: auto;
+          width: 100%;
           margin: 10% 0 10% 0;
         }
             .pointingHandContainer {
