@@ -77,6 +77,9 @@
 
 // Media Queries for screens 500px and below
 @media (max-width: 500px) {
+  html, body {
+    height: 100%;
+}
   .homePageContainer {
     object-fit: cover; // Scales to fill, maintaining aspect ratio
     // object-fit: contain; // Scales to fit within, maintaining aspect ratio
