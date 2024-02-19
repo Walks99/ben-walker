@@ -4,6 +4,7 @@ import WebTitle from "./components/webTitle/WebTitle";
 import WebIntro from "./components/webIntro/webIntro";
 import MyWork from "./components/myWork/Projects";
 import NavBar from "../../commonComponents/navBar/NavBar";
+import MobileNavBar from "../../commonComponents/mobileNavBar/MobileNavBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHandPointDown,
@@ -64,6 +65,7 @@ function Home() {
         <div ref={myWorkRef}>
           <MyWork />
         </div>
+        <MobileNavBar />
       </div>
       <NavBar />
     </div>
