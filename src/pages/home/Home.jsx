@@ -65,9 +65,13 @@ function Home() {
         <div ref={myWorkRef}>
           <MyWork />
         </div>
+        <div className={styles.MobileNavBar}>
         <MobileNavBar />
+        </div>
       </div>
+      
       <NavBar />
+      
     </div>
   );
 }
