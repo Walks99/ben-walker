@@ -14,6 +14,7 @@
     color: inherit;
   }
   .projectElement {
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,11 +66,11 @@
     .projectElement {
       &:hover {
         transform: scale(1);
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+        box-shadow: -8px 8px 2px rgba(0, 0, 0, 0.1), 4px -4px 20px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;  
       }
       &:active {
-        box-shadow: 0px 0px 0px rgb(255, 219, 88, 0.5);
+        box-shadow: -8px 8px 6px rgb(255, 219, 88, 0.6);
         transition: box-shadow 0s;
       }
     }
