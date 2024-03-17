@@ -4,6 +4,18 @@ import styles from "./Projects.module.scss";
 function Projects() {
   return (
     <div className={styles.projects_container}>
+      <a href="https://device-info-using-browser-apis.vercel.app/" target="_blank" rel="noopener noreferrer">
+      <div className={`${styles.projectElement} ${styles.projectFour}`}>
+        <h2>Device info through Browser API's</h2>
+        <img
+          src={process.env.PUBLIC_URL + "/fingerprint.png"}
+          alt="NZ metro property mangement"
+          className={styles.fingerprintLogo}
+        />
+        <p></p>
+      </div>
+      </a>
+
       <div className={`${styles.projectElement} ${styles.projectOne}`}>
         <h2>NZ Metro Property Management</h2>
         <img
