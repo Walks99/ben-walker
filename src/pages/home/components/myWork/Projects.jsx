@@ -1,7 +1,17 @@
 import React from "react";
+import { useEffect } from "react";
 import styles from "./Projects.module.scss";
 
 function Projects() {
+  useEffect(() => {
+    const mql = window.matchMedia('(max-width: 500px)');
+    if (mql.matches) {
+      const projectElements = document.querySelectorAll('.projectElement');
+      projectElements.forEach((element) => {
+        element.style.height = window.innerHeight * 0.8 + 'px';
+      });
+    }
+  }, []);
   return (
     <div className={styles.projects_container}>
       <a
