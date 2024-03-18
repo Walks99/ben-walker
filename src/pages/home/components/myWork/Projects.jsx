@@ -1,29 +1,7 @@
 import React from "react";
 import styles from "./Projects.module.scss";
-import { useEffect } from "react";
 
 function Projects() {
-  useEffect(() => {
-    const handleResize = () => {
-      const mql = window.matchMedia('(max-width: 500px)');
-      if (mql.matches) {
-        const projectElements = document.querySelectorAll(`.${styles.projectElement}`);
-        projectElements.forEach((element) => {
-          element.style.height = window.innerHeight * 0.9 + 'px';
-        });
-      }
-    };
-
-    // Call the function once on component mount
-    handleResize();
-
-    // Add event listener for window resize
-    window.addEventListener('resize', handleResize);
-
-    // Cleanup function to remove the event listener
-    return () => window.removeEventListener('resize', handleResize);
- }, []);
-
   return (
     <div className={styles.projects_container}>
       <a
