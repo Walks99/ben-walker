@@ -1,15 +1,14 @@
 import React from "react";
 import styles from "./Projects.module.scss";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 
 function Projects() {
-  const projectElementRef = useRef(null);
   useEffect(() => {
     const handleResize = () => {
       const mql = window.matchMedia('(max-width: 500px)');
       if (mql.matches) {
-        const projectElements = projectElementRef.current.children;
-        Array.from(projectElements).forEach((element) => {
+        const projectElements = document.querySelectorAll(`.${styles.projectElement}`);
+        projectElements.forEach((element) => {
           element.style.height = window.innerHeight * 0.9 + 'px';
         });
       }
@@ -32,7 +31,7 @@ function Projects() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div ref={projectElementRef} className={`${styles.projectElement} ${styles.projectFour}`}>
+        <div className={`${styles.projectElement} ${styles.projectFour}`}>
           <h2>Fingerprinting with Browser API's</h2>
           <img
             src={process.env.PUBLIC_URL + "/fingerprint.png"}
@@ -43,7 +42,7 @@ function Projects() {
         </div>
       </a>
 
-      <div ref={projectElementRef} className={`${styles.projectElement} ${styles.projectOne}`}>
+      <div className={`${styles.projectElement} ${styles.projectOne}`}>
         <h2>NZ Metro Property Management</h2>
         <img
           src={process.env.PUBLIC_URL + "/NZmetroPropertyLogo.png"}
@@ -52,7 +51,7 @@ function Projects() {
         <p>Coming soon...</p>
       </div>
 
-      <div ref={projectElementRef} className={`${styles.projectElement} ${styles.projectTwo}`}>
+      <div className={`${styles.projectElement} ${styles.projectTwo}`}>
         <h2>Level Up Works</h2>
         <img
           src={process.env.PUBLIC_URL + "/LevelUpWorks-blue.png"}
@@ -61,7 +60,7 @@ function Projects() {
         <p>Coming soon...</p>
       </div>
 
-      <div ref={projectElementRef} className={`${styles.projectElement} ${styles.projectThree}`}>
+      <div className={`${styles.projectElement} ${styles.projectThree}`}>
         <h2>Enterprise Web App</h2>
         <img
           src={process.env.PUBLIC_URL + "/DatacomLogo.png"}
