@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div className={styles.projects_container}>
       <a
-        href="https://device-info-using-browser-apis.vercel.app/"
+        href="https://device-info-using-browser-apis.vercel.app/subtleCryptoAPI"
         target="_blank"
         rel="noopener noreferrer"
       >
